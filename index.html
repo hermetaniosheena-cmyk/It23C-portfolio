@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#personal-info">Personal Info</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="personal-info">
+      <h2>Personal Information</h2>
+       <img src="profile.jpg" alt="Sheena Hermetanio" class="profile-img">
+      <p>Hello! I’m <strong>Sheena Hermetanio</strong>, a passionate web developer who loves creating modern and responsive websites. I enjoy working with HTML, CSS, and JavaScript to bring ideas to life.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <article>
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p><strong>Northern Bukidnpon State College</strong> (2025-2026)</p>
+        <p><strong>Fortich National High School<(2023-2024)
+        
+        
+        
+        
+</p>
+        <p> </p>
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>   
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built with HTML, CSS, and JavaScript to showcase my work and skills.</p>
+        <a href="#" target="_blank">View Project</a>
+      </article>
+
+      <article>
+        <h3>  Margarita's Snacks </h3>
+        <p>a food business that offers a variety of delicious snacks and treats to satisfy your cravings.</p>
+        <a href="#" target="_blank">View Project</a>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Details</h2>
+      <address>
+        <p>Email: <a href="sheena: hermetaniosheena@gmaol.com">hermetaniosheena@gmail.com/a></p>
+        <p>Phone: 09816045186</p>
+        <p>Location: Sto Nino, Manolo Fortich, Bukidnon</p>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; sheena right reserved.</p>
+  </footer>
+
+  <!-- Smooth Scroll Script -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
